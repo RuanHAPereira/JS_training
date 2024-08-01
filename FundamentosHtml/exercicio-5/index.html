@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>Exercicio 5</title>
+</head>
+
+<body>
+    <h1>Formulário de Inscrição</h1>
+
+    <form action="#" method="post">
+        <div>
+            <label for="nome">Nome:</label> 
+            <br>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+        
+        <br>
+        
+        <div>
+            <label for="email">E-mail:</label> 
+            <br>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="whatsapp">WhatsApp:</label> 
+            <br>
+            <input type="tel" id="whatsapp" name="whatsapp" placeholder="(xx)xxxx-xxxx" required >
+        </div>
+        
+        <br>
+
+        <div>
+            <label>Área de Atuação:</label> 
+            <br>
+            <input type="radio" name="area" id="dev" value="dev" required>
+            <label for="dev">Desenvolvedor</label>
+
+            <input type="radio" name="area" id="qa" value="qa" required>
+            <label for="qa">Quality Assurance(QA)</label>
+
+            <input type="radio" name="area" id="analise" value="analise" required>
+            <label for="analise">Análise de Dados</label>
+
+            <input type="radio" name="area" id="infra" value="infra" required>
+            <label for="infra">Infraestrutura</label>
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="observacao">Observação:</label> 
+            <br>
+            <textarea name="observacao" id="observacao" cols="30" rows="10"></textarea>
+        </div>
+        
+        <br>
+
+        <div>
+            <input type="checkbox" id="ofertas" name="ofertas" checked required>
+            <label for="ofertas">Desejo receber ofertas e novidades por e-mail.</label>
+        </div>
+        
+        <br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

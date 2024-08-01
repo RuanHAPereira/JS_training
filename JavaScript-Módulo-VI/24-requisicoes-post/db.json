@@ -1,0 +1,34 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Olá, mundo!",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minus inventore voluptatem, eum repellat sed officiis aliquam",
+      "author": "Ruan"
+    },
+    {
+      "id": 2,
+      "title": "Requisições POST com Javascript",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minus inventore voluptatem, eum repellat sed officiis aliquam",
+      "author": "Ruan"
+    },
+    {
+      "id": "2a5a",
+      "title": "Algo qualquer",
+      "author": "",
+      "content": ""
+    },
+    {
+      "id": "cd35",
+      "title": "",
+      "author": "Ruan",
+      "content": ""
+    },
+    {
+      "id": "54b8",
+      "title": "",
+      "author": "",
+      "content": "Alguma coisa ai \n"
+    }
+  ]
+}
